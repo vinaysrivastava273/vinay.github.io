@@ -1,0 +1,109 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	background-image: url("IC8P09.jpg"); 
+	background-size: cover ;
+	max-width: 1200px;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.menu{width: 100%;
+	  height: 100px;
+	
+	font-size: xx-large;
+
+}
+
+.heading{
+float: left;
+margin: 1% 3%;
+border-radius: 4%;
+}
+
+.nav{
+	width: 75%;
+	height: 10%;
+	float: right;
+}
+
+.nav ul li {font-family: Times New Roman,serif;
+    display: inline-block;
+    list-style: none;
+	font-size: 1%;
+	float: right;
+	margin: 2% 1%;
+	padding: 1% 1%;
+    font-weight: bold;
+}
+
+.nav ul li a{text-decoration: none;}
+
+.photo{
+	margin-right: 20%;
+	margin-top: 3%;
+	border-radius: 50%;
+}
+
+.content{
+	padding: 40px;
+	font-family: Comic Sans MS,cursive;
+	font-size: x-large;
+	color:lightblue;
+	text-align: center;
+}
+
+.content ul li{
+	list-style: none;
+	padding-bottom: 20px;
+	color: #e0de48;
+}
+
+.space{
+	height: 30px;
+}
+
+.achieve{
+	float: center;
+}
+
+.hobby{
+	float: center;
+}
+
+.tab{
+	border:2px;
+	margin: 100px 10%;
+}
+
+td{
+	padding: 30px;
+	font-size: x-large;
+	font-weight: bolder;
+	font-family: exo2;
+	color: orange;
+}
+
+.foot{
+	
+	float: bottom;
+	margin-bottom: 0%;
+	padding: 20px;
+	text-align: center;
+	font: 20px Georgia, serif;
+
+}
+
+a:link{
+	color: #84fa66;
+}
+a:visited{
+	color : rgb(227, 227,227);
+}
+
+a:hover{
+	color: rgb(230,230,30);
+}
