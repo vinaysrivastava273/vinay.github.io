@@ -63,14 +63,6 @@ border-radius: 4%;
   100% {width: 40%;height: 40%;border-radius: 30%;}
 }
 
-@keyframes list{
-	0% {color: rgba(224, 222, 72,1);}
-	25% {color: rgba(224, 222, 72,0.5);}
-	50% {color: rgba(224, 222, 72,0);}
-	75% {color: red}
-	100% {color: rgba(224, 222, 72,1);}
-}
-
 .content{
 	padding: 40px;
 	font-family: Comic Sans MS,cursive;
@@ -87,11 +79,12 @@ border-radius: 4%;
   animation-duration: 4s;
   position: relative;
 }
+
 .interest{
 	padding: 40px;
-	font-family: Comic Sans MS,cursive;
+	font-family: "Comic Sans MS", cursive, sans-serif;
 	font-size: x-large;
-	color:lightblue;
+	color:#ADD8E6;
 	text-align: right;
 }
 
@@ -103,6 +96,14 @@ border-radius: 4%;
 	animation-name: list;
   animation-duration: 4s;
   position: relative;
+}
+
+@keyframes list{
+	0% {color: rgba(224, 222, 72,1);}
+	25% {color: rgba(224, 222, 72,0.5);}
+	50% {color: rgba(224, 222, 72,0);}
+	75% {color: red}
+	100% {color: rgba(224, 222, 72,1);}
 }
 .space{
 	height: 30px;
