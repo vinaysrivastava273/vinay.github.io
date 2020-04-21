@@ -1,0 +1,133 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	background-image: url("IC8P09.jpg"); 
+	background-size: cover ;
+	max-width: 1200px;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.menu{width: 100%;
+	  height: 100px;
+	
+	font-size: xx-large;
+
+}
+
+.heading{
+float: left;
+margin: 1% 3%;
+border-radius: 4%;
+}
+
+.nav{
+	width: 75%;
+	height: 10%;
+	float: right;
+}
+
+.nav ul li {font-family: Times New Roman,serif;
+    display: inline-block;
+    list-style: none;
+	font-size: 1%;
+	float: right;
+	margin: 2% 1%;
+	padding: 1% 1%;
+    font-weight: bold;
+}
+
+.nav ul li a{text-decoration: none;}
+
+.photo{
+	margin-right: 20%;
+	margin-top: 3%;
+	border-radius: 50%;
+}
+
+.hobby{
+  width: 40%;
+  height: 40%;
+  animation-name: example;
+  animation-duration: 4s;
+ }
+
+@keyframes example {
+	0%   {width: 40%;height: 40%;border-radius: 50%;}
+  25%  {width: 35%;height: 35%;border-radius: 60%;margin-left: 20%;}
+  50%  {width: 30%;height: 30%;border-radius: 50%;margin-left: 16%;}
+  75%  {width: 35%;height: 35%;border-radius: 20%;margin-left: 20%;}
+  100% {width: 40%;height: 40%;border-radius: 30%;}
+}
+
+@keyframes list{
+	0% {color: rgba(224, 222, 72,1);}
+	25% {color: rgba(224, 222, 72,0.5);}
+	50% {color: rgba(224, 222, 72,0);}
+	75% {color: red}
+	100% {color: rgba(224, 222, 72,1);}
+}
+
+.content{
+	padding: 40px;
+	font-family: Comic Sans MS,cursive;
+	font-size: x-large;
+	color:lightblue;
+	text-align: center;
+}
+
+.content ul li{
+	list-style: none;
+	padding-bottom: 20px;
+	color: rgba(255, 238, 140,1);
+	animation-name: list;
+  animation-duration: 4s;
+  position: relative;
+}
+
+.space{
+	height: 30px;
+}
+
+.hobby{
+	margin-left: 13%;
+	border-radius: 30%;
+}
+
+.tab{
+	border:2px;
+	margin: 100px 10%;
+}
+
+td{
+	padding: 30px;
+	font-size: x-large;
+	font-weight: bolder;
+	font-family: exo2;
+	color: orange;
+}
+
+.foot{
+	
+	float: bottom;
+	margin-bottom: 0%;
+	padding: 20px;
+	text-align: center;
+	font: 20px Georgia, serif;
+
+}
+
+a:link{
+	color: #84fa66;
+}
+a:visited{
+	color : rgb(227, 227,227);
+}
+
+a:hover{
+	color: rgb(230,230,30);
+}
+
