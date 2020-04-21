@@ -53,6 +53,7 @@ border-radius: 4%;
   height: 40%;
   animation-name: example;
   animation-duration: 4s;
+  float:right;
  }
 
 @keyframes example {
@@ -107,11 +108,6 @@ border-radius: 4%;
 }
 .space{
 	height: 30px;
-}
-
-.hobby{
-	margin-left: 13%;
-	border-radius: 30%;
 }
 
 .tab{
