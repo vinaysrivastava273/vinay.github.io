@@ -1,0 +1,216 @@
+*{
+	margin:0 auto;
+	padding: 0;
+}
+
+body{
+	background-color: white;
+	font-family: 'Balsamiq Sans', cursive;
+}
+
+.nav{
+	height: 70px;
+	width: 100%;
+	background-color: white;
+	position: fixed;
+	opacity: 1;
+}
+
+.nav ul li{
+	display: inline-block;
+    list-style: none;
+    margin-top: 15px;
+	float: right;
+	margin-right: 10px;
+	padding: 1%;
+    font-weight: bold;
+}
+
+.nav .div1{
+	max-width: 1200px;
+}
+.nav ul li a{text-decoration: none;}
+
+a:link{
+	color: grey;
+}
+
+a:visited{color: grey;}
+
+a:hover{
+	color:#4b5448;
+}
+
+.nav ul .active a{color:#80f263;}
+.nav ul .active a:hover{
+	color:#249109;
+}
+
+.div1{
+	margin-top: 1px;
+	margin-left: 50px;
+	float: left;
+}
+
+.foot{
+	background-image:url("https://static.teamtreehouse.com/assets/marketing/landings/tracks_fullimg-a5ed73ac6c2fd81a3d4e4bc652f76d50cbccb4272dfe3cca1cb00067694896ba.png");
+	background-position: center;
+	bottom: 0px;
+	height: 70px;
+	z-index: 10;
+	width: 100%;
+	position: fixed;
+	color: white;
+	font-size: large;
+	padding-top: 10px;
+}
+
+.div2{
+	clear: both;
+	max-width: 40%;
+	padding: 50px 20px;
+	color: white;
+	float: left;
+	margin-top: 240px;
+	margin-left: 25px;
+}
+
+.form{
+	float: right;
+	background-color: white;
+	height: 40%;
+	width: 48%;
+	margin-right: 60px;
+	margin-top: 150px;
+}
+
+
+.form .formhead{
+	background-color: lightgrey;
+	font-size: large;
+
+	padding: 20px;
+}
+
+.form .input .box{
+	margin-left: 10px;
+	float: left;
+	width: 40%;
+}
+
+.form .input .box2{
+	margin-right: 60px;
+	float: right;
+	width: 40%;
+}
+
+form .row1{
+	line-height: 40px;
+	padding: 15px;
+	font-size: large;
+}
+
+.form .input .check{
+	clear: both;
+	padding-top: 30px;
+	padding-bottom: 10px;
+	padding-left: 30px;
+}
+
+button{
+	clear: both;
+	background-color: #3576ab;
+	color: white;
+	font-size: large;
+	padding: 20px 10px;
+	text-align: center;
+	border-radius: 5px;
+	letter-spacing: 1px;
+	width: 92%;
+	margin: 5px 20px;
+}
+
+button:hover{background-color: #004f8f}
+
+.form .input .submit{
+	margin-left: 5px;
+	margin-bottom: 20px;
+}
+
+.info{
+	clear:both;
+	padding: 30px;
+}
+.num{height: 50px;}
+
+.video{
+	float: left;
+	margin-left: 60px;
+	margin-top: 50px;	
+}
+
+.flexible{
+	font-size: 25px;
+	line-height: 30px;
+	float: right;
+	margin: 50px;
+	margin-top: 70px;
+	width: 30%;
+	color: grey;
+}
+
+.supportive{
+	clear: both;
+	font-size: 20px;
+	line-height: 25px;
+	float: left;
+	margin: 60px;
+	margin-top: 30px;
+	width: 40%;
+	color: grey;
+}
+
+.valuable{
+	font-size: 20px;
+	line-height: 25px;
+	float: right;
+	margin: 60px;
+	margin-top: 30px;
+	width: 40%;
+	color: grey;
+}
+
+.partners{
+	clear: both;
+	font-size: 35px;
+}
+
+.ms{
+	margin:80px;
+	margin-bottom: 120px;
+}
+
+.challenge{
+	font-size: 30px;
+	line-height: 55px;
+	color: white;
+	width: 40%;
+	margin: 80px;
+	padding: 50px; 
+}
+
+.challenge a{text-decoration: none;
+	 color:white ;
+	 background-color:#86c775;
+	 margin: 15px;
+	 padding:15px 30px;
+	 font-size: medium;
+	 border-radius: 5px;}
+
+.challenge a:hover{background-color: #249109}
+
+.contact{
+	width: 20%;
+	margin-right: 0px;
+	padding-top: 30px;
+}
